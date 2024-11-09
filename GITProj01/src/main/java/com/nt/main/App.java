@@ -9,6 +9,8 @@ public class App {
           App app=new App();
           System.out.println("sum result22 is::"+app.sum(10, 20));
           System.out.println("sum amount44 is::"+app.sum(10, 20));
-          //hello
+          //hello  //how are u??
+          System.out.println("sum amount55 is::"+app.sum(10, 20));
+          
     }
 }
