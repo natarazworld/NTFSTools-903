@@ -27,4 +27,8 @@ public class NetBankingService {
 		
 		return "transfering "+amount+" from "+srcAcno+"  to "+destAcno;
 	}
+	
+	  public  double  checkBalance() {
+		  return  new Random().nextLong(100000);
+	  }
 }
