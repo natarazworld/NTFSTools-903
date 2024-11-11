@@ -31,4 +31,8 @@ public class NetBankingService {
 	public  void  abc() {
 		System.out.println("abc");
 	}
+	  public  double  checkBalance() {
+		  return  new Random().nextLong(100000);
+	  }
+
 }
