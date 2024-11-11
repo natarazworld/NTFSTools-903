@@ -9,6 +9,9 @@ public class NetBankingService {
 		return "account is opened with acc number::"+new Random().nextLong(500000000000L);
 	}
 	
+	
+	
+	
 	public   String closeAccount() {
 		return "Account is closed";
 	}
