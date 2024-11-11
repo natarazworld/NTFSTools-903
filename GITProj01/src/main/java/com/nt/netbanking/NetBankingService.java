@@ -9,6 +9,12 @@ public class NetBankingService {
 		return "account is opened with acc number::"+new Random().nextLong(500000000000L);
 	}
 	
+	
+	
+	public   String closeAccount() {
+		return "Account is closed";
+	}
+	
 	public  String withdraw(long acno, double amount) {
 		return  amount+" is withdrawn from  the account number::"+acno;
 	}
@@ -17,4 +23,8 @@ public class NetBankingService {
 		return  amount+" is deposited in to  the account number::"+acno;
 	}
 	
+	public   String  transferMoney(long srcAcno,long destAcno,  double amount) {
+		
+		return "transfering "+amount+" from "+srcAcno+"  to "+destAcno;
+	}
 }
