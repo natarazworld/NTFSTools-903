@@ -23,4 +23,8 @@ public class NetBankingService {
 		return  amount+" is deposited in to  the account number::"+acno;
 	}
 	
+	public   String  transferMoney(long srcAcno,long destAcno,  double amount) {
+		
+		return "transfering "+amount+" from "+srcAcno+"  to "+destAcno;
+	}
 }
