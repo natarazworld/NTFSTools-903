@@ -22,7 +22,7 @@ public class DateServlet  extends HttpServlet {
 		PrintWriter pw=res.getWriter();
 		//  b.logic
 		Date  d=new Date();
-		pw.println("<h1> Date and time is ::"+d+"</h1>");
+		pw.println("<h1> Date and time  now is::"+d+"</h1>");
 		
 		//add home hyperlink
 		pw.println("<br><a  href='index.jsp'>home </a>");
